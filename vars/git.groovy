@@ -1,6 +1,3 @@
-def call(String giturl , String branch){
-   git url: giturl 
-   git branch : brnach
-   echo "succesfull"
+def call(args) {
+    git url: args.url, branch: args.branch
 }
-   
