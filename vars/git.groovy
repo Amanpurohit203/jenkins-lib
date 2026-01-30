@@ -1,5 +1,5 @@
 def call(String url, String branch){
-   git : "${url}" , "${branch}"
+   git url:"${url}" , branch :"${branch}"
    echo "succesfull"
 }
    
